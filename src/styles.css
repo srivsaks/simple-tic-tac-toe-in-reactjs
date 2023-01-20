@@ -1,0 +1,16 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  grid-column-gap: 0;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: slateblue;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+}
